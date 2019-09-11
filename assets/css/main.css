@@ -1,0 +1,53 @@
+body {
+background-image: url(../img/sfondo.jpg);
+background-size: cover;
+}
+
+ #bloccogm {
+  width: 90%;
+  max-width: 800px;
+	margin: 30px auto;
+}
+
+/* #bloccogm {
+  margin: 100px 180px 180px;
+} */
+
+.unreadmail{
+  color: #fff;
+}
+
+#notread {
+  background-color: #ffa500;
+  border-radius: 50%;
+  padding: 5px;
+}
+
+.listamail {
+  background-color: #ccc;
+  color: #000000;
+  padding: 5px 5px;
+  border: 2px #000000 solid;
+}
+
+.listamail1 {
+  background-color: #fff;
+  color: #000000;
+  padding: 5px 5px;
+  border: 2px #000000 solid;
+}
+
+.listamail1:hover {
+  background-color: yellow;
+  color: red;
+}
+
+.oggetto {
+  display: inline;
+  padding: 5px;
+}
+
+#footer {
+  text-align: center;
+  color: #fff;
+}
